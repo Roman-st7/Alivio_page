@@ -48,7 +48,7 @@
         font-size: 16px;
     }
 
-    .btn{
+    .header_actions .btn{
         width: 120px;
         font-size: 16px;
     }
@@ -60,4 +60,16 @@
     .header_nav{
         display: none;
     }
+
+    .container_wrapper{
+        padding: 0 0 0 45px;
+    }
+}
+
+
+@media (max-width: 390px){
+    .header_actions .btn{
+        width: 90px;
+    }
+    
 }

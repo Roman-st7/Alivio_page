@@ -16,4 +16,14 @@
 		S14.561,2,30,2s28,12.561,28,28S45.439,58,30,58z"/>
 </g>
     </symbol>
+    <symbol width="33" height="30" viewBox="0 0 30 30" id="burger-icon">
+        <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+        <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+     </symbol>
+
+    
+    <symbol width="32" height="32" viewBox="0 0 24 24" id="cross-icon">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z" fill="#000"></path>
+    </symbol>
 </svg>

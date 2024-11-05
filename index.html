@@ -41,6 +41,34 @@
             </div>
         </div>
     </header>
+    <div class="mobile-navigation" aria-label="mobile navigation">
+        <label for="toggler-menu-id" aria-label="open close toggler menu navigation">
+            <svg width="40" height="40" class="mobile-navigation_burger" aria-label="burger icon" >
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+        <input type="checkbox" name="toggler" id="toggler-menu-id" class="mobile-navigation-toggler">
+        <nav class="mobile-navigation-menu" aria-label="mobile-navigation">
+            <ul class="mobile-navigation-list" aria-label=" mobile navigation list">
+                <li class="mobile_navigation_item">
+                    <a href="#about-id" class="mobile-navigation_link">Why Alivio</a>
+                </li>
+                <li class="header_nav_item">
+                    <a href="#success-id" class="mobile-navigation_link">Solutions</a>
+                </li>
+                <li class="header_nav_item">
+                    <a href="#product-id" class="mobile-navigation_link">Community</a>
+                </li>
+                <li class="header_nav_item">
+                    <a href="#pricing-id" class="mobile-navigation_link">Pricing</a>
+                </li>
+            </ul>
+            <label for="toggler-menu-id" class="close" aria-label="close toggler menu navigation"></label>
+                <svg width="33" height="20" class="mobile-navigation_cross" aria-label="cross icon" >
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </nav>
+    </div>
     <main>
         <section class="hero" aria-label="hero section" id="hero-id">
             <div class="container">
@@ -108,7 +136,7 @@
                         <button class="btn">Find Your Way</button>
                     </div>
 
-                    <figure class="person-card" aria-label="person card "">
+                    <figure class="person-card" aria-label="person card">
                         <h4 class="person__title">Customized For</h4>
                         <div class="person-card__preview">
                             <img src="assets/webp/photo_card.webp" alt="preview image card" class="person-card__preview-img">
